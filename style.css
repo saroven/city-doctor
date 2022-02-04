@@ -1,0 +1,90 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   font-size: 62.5%;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+body {
+   font-family: "Poppins", sans-serif;
+}
+li,
+button,
+p,
+a {
+   font-size: 1.5rem;
+}
+h1 {
+   font-size: 4rem;
+}
+h2 {
+   font-size: 3rem;
+}
+
+/* end global css */
+.main-header {
+   background: #131c27;
+   color: white;
+}
+#logo {
+   flex: 0 1 40rem;
+   font-family: "Pattaya", sans-serif;
+   font-weight: 400;
+}
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 10vh;
+   width: 90%;
+   margin: auto;
+   flex-wrap: wrap;
+}
+nav h1 {
+   flex: 1 1 40rem;
+}
+nav ul {
+   display: flex;
+   flex: 1 1 40rem;
+   justify-content: right;
+   list-style: none;
+   font-size: 1.5rem;
+}
+nav ul li {
+   margin: 0rem 2rem;
+}
+
+/* end nav section */
+
+.hero {
+   min-height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: url("./img/pexels-anna-shvets-3902882.jpg");
+   background-size: cover;
+   background-position: center;
+   /* background-size: 100%; */
+   background-repeat: no-repeat;
+}
+/* .map-wrapper {
+   width: 90%;
+   margin: auto;
+} */
+@media screen and (max-width: 800px) {
+   #logo {
+      text-align: center;
+      padding: 2rem;
+   }
+   nav ul {
+      justify-content: center;
+      padding: 2rem 0rem;
+   }
+}
