@@ -72,8 +72,9 @@ nav ul li {
 
 /* end nav section */
 .map-section {
-   /* margin: auto; */
    min-height: 90vh;
+   display: flex;
+   flex-direction: column;
 }
 .map-header {
    background-color: #27394e;
@@ -127,8 +128,8 @@ footer ul li {
    nav {
       min-height: 10vh;
    }
-   .hero {
-      min-height: 81.5vh;
+   nav ul li {
+      margin: 0rem 1rem;
    }
    nav ul {
       justify-content: center;
