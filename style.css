@@ -21,7 +21,7 @@ a {
    font-size: 1.5rem;
 }
 h1 {
-   font-size: 4rem;
+   font-size: 3.5rem;
 }
 h2 {
    font-size: 3rem;
@@ -47,7 +47,7 @@ button:hover {
 #logo {
    flex: 1 40rem;
    font-family: "Pattaya", sans-serif;
-   font-weight: 400;
+   font-weight: 500;
 }
 nav {
    display: flex;
@@ -71,31 +71,50 @@ nav ul li {
 }
 
 /* end nav section */
-
-.hero {
+.map-section {
+   /* margin: auto; */
    min-height: 90vh;
-   margin: auto;
-   background: url("./img/pexels-anna-shvets-3902882.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   color: rgba(0, 0, 0, 0.8);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
 }
-.map-wrapper {
+.map-header {
+   background-color: #27394e;
+   color: white;
+   padding: 2rem;
+   text-align: center;
+   font-weight: 500;
+   font-size: 2rem;
+}
+svg {
+   height: 78vh;
    width: 90%;
    margin: auto;
-   min-height: 100vh;
+}
+footer {
+   background-color: #131c27;
+   color: white;
+}
+footer .container {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+footer h4 {
+   flex: 1 1 40rem;
+   font-family: "Pattaya", sans-serif;
+   font-weight: 500;
+   font-size: 2rem;
 }
 
-svg {
-   max-height: 80vh;
-   /* width: 90%;
-   margin: auto; */
+footer ul {
+   display: flex;
+   flex: 1 1 40rem;
+   justify-content: right;
+   list-style-type: none;
+}
+footer ul li {
+   margin: 1rem 2rem;
 }
 @media screen and (max-width: 800px) {
    html {
@@ -114,5 +133,13 @@ svg {
    nav ul {
       justify-content: center;
       padding: 2rem 0rem;
+   }
+   footer h4 {
+      text-align: center;
+      padding: 2rem;
+   }
+   footer ul {
+      justify-content: center;
+      align-items: center;
    }
 }
