@@ -45,7 +45,7 @@ button:hover {
    color: white;
 }
 #logo {
-   flex: 2 1 40rem;
+   flex: 1 40rem;
    font-family: "Pattaya", sans-serif;
    font-weight: 400;
 }
@@ -62,6 +62,7 @@ nav ul {
    display: flex;
    flex: 1 1 40rem;
    justify-content: right;
+   align-items: center;
    list-style: none;
    font-size: 1.5rem;
 }
@@ -85,14 +86,30 @@ nav ul li {
    align-items: center;
    text-align: center;
 }
-/* .map-wrapper {
+.map-wrapper {
    width: 90%;
    margin: auto;
-} */
+   min-height: 100vh;
+}
+
+svg {
+   min-height: 80vh;
+   width: 90%;
+   margin: auto;
+}
 @media screen and (max-width: 800px) {
+   html {
+      font-size: 45%;
+   }
    #logo {
       text-align: center;
       padding: 2rem;
+   }
+   nav {
+      min-height: 10vh;
+   }
+   .hero {
+      min-height: 81.5vh;
    }
    nav ul {
       justify-content: center;
