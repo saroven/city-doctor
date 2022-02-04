@@ -27,13 +27,25 @@ h2 {
    font-size: 3rem;
 }
 
+button {
+   border: none;
+   background-color: #131c27;
+   padding: 1.5rem 3.5rem;
+   color: white;
+   margin: 2rem;
+}
+button:hover {
+   transition: background 1s ease-in-out;
+   background-color: #27394e;
+}
+
 /* end global css */
 .main-header {
    background: #131c27;
    color: white;
 }
 #logo {
-   flex: 0 1 40rem;
+   flex: 2 1 40rem;
    font-family: "Pattaya", sans-serif;
    font-weight: 400;
 }
@@ -45,9 +57,6 @@ nav {
    width: 90%;
    margin: auto;
    flex-wrap: wrap;
-}
-nav h1 {
-   flex: 1 1 40rem;
 }
 nav ul {
    display: flex;
@@ -64,15 +73,17 @@ nav ul li {
 
 .hero {
    min-height: 90vh;
+   margin: auto;
+   background: url("./img/pexels-anna-shvets-3902882.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: rgba(0, 0, 0, 0.8);
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: url("./img/pexels-anna-shvets-3902882.jpg");
-   background-size: cover;
-   background-position: center;
-   /* background-size: 100%; */
-   background-repeat: no-repeat;
+   text-align: center;
 }
 /* .map-wrapper {
    width: 90%;
