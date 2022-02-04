@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         name="description"
+         content="City doctor is a web app for finding nearest doctors in your location."
+      />
+      <meta name="robots" content="index, follow" />
+      <link rel="icon" href="./icons/plane.png" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./style.css" />
+      <title>City Doctors</title>
+   </head>
+   <body>
+      <header class="main-header">
+         <nav>
+            <h1 id="logo">City Doctor</h1>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a href="#">Find Doctor</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section class="contact-section">
+         <div class="form-wrapper">
+            <header class="form-head">
+               <h2>Contact Us</h2>
+            </header>
+            <form action="#">
+               <div class="name-field">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" required />
+               </div>
+               <div class="email-field">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" required />
+               </div>
+               <div class="subject-field">
+                  <label for="subject">Subject:</label>
+                  <input type="text" name="subject" required />
+               </div>
+               <div class="message-field">
+                  <label for="message">Message:</label>
+                  <textarea name="messages" required></textarea>
+               </div>
+               <button type="submit">Submit</button>
+            </form>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <h4>City Doctor &copy;</h4>
+            <ul>
+               <li>
+                  <a href="#"
+                     ><img src="./icons/instagram.svg" alt="Instagram-icon"
+                  /></a>
+               </li>
+               <li>
+                  <a href="#"
+                     ><img src="./icons/twitter.svg" alt="Twitter-icon"
+                  /></a>
+               </li>
+               <li>
+                  <a href="#"
+                     ><img src="./icons/youtube.svg" alt="Youtube-icon"
+                  /></a>
+               </li>
+            </ul>
+         </div>
+      </footer>
+   </body>
+</html>
