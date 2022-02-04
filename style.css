@@ -93,9 +93,9 @@ nav ul li {
 }
 
 svg {
-   min-height: 80vh;
-   width: 90%;
-   margin: auto;
+   max-height: 80vh;
+   /* width: 90%;
+   margin: auto; */
 }
 @media screen and (max-width: 800px) {
    html {
