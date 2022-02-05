@@ -117,7 +117,7 @@ footer ul {
    list-style-type: none;
 }
 footer ul li {
-   margin: 1rem 2rem;
+   margin: 2rem;
 }
 /* end footer section */
 /* start contact section */
@@ -230,9 +230,9 @@ footer ul li {
    min-height: 40vh;
    margin: 2rem 5rem;
 }
-.cards img {
-   max-width: 15%;
-   color: wheat;
+.cards i {
+   font-size: 2.5rem;
+   color: white;
 }
 .card .card-icon {
    padding: 2rem;
