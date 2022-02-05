@@ -89,6 +89,8 @@ svg {
    width: 90%;
    margin: auto;
 }
+/* end homepage */
+/* start footer */
 footer {
    background-color: #131c27;
    color: white;
@@ -117,7 +119,8 @@ footer ul {
 footer ul li {
    margin: 1rem 2rem;
 }
-
+/* end footer section */
+/* start contact section */
 .contact-section {
    min-height: 90vh;
    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
@@ -169,6 +172,81 @@ footer ul li {
    color: white;
 }
 
+/* end contact section */
+
+/* start about section */
+
+.about-section {
+   min-height: 90vh;
+   /* background-color: #27394 */
+}
+
+.about-head {
+   background-color: #27394e;
+   color: white;
+}
+.head-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 90%;
+   margin: auto;
+}
+.about-head h2 {
+   flex: 1 1 40rem;
+}
+.about-head .nav {
+   flex: 1 1 40rem;
+   display: flex;
+   justify-content: right;
+}
+.about-body {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.about-body h4 {
+   padding: 3rem;
+   font-size: 2rem;
+}
+
+.cards {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 3rem;
+   flex-wrap: wrap;
+}
+.card {
+   text-align: center;
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),
+      0px 20px 20px rgba(0, 0, 0, 0.1), 0px 30px 30px rgba(0, 0, 0, 0.1);
+   flex: 1 1 20rem;
+   min-height: 40vh;
+   margin: 2rem 5rem;
+}
+.cards img {
+   max-width: 15%;
+   color: wheat;
+}
+.card .card-icon {
+   padding: 2rem;
+   background-color: #131c27;
+   color: white;
+   width: 100%;
+}
+.card .card-body {
+   padding: 3rem;
+}
+.card .card-body h4 {
+   font-size: 1.5rem;
+   padding: 2rem;
+}
 @media screen and (max-width: 800px) {
    html {
       font-size: 45%;
