@@ -249,7 +249,7 @@ footer ul li {
 }
 @media screen and (max-width: 800px) {
    html {
-      font-size: 45%;
+      font-size: 50%;
    }
    #logo {
       text-align: center;
@@ -276,5 +276,18 @@ footer ul li {
    }
    .form-wrapper {
       width: 90%;
+   }
+   .about-head h2 {
+      text-align: center;
+      padding: 2rem;
+   }
+   .about-head .nav {
+      justify-content: center;
+      padding-bottom: 2rem;
+   }
+   .about-section .cards {
+      padding: 0rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
    }
 }
