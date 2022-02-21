@@ -325,6 +325,105 @@ footer ul li {
    font-size: 1.8rem;
    padding: 2rem;
 }
+.service-cards .card p {
+   margin-bottom: 2rem;
+}
+
+/* doctors page design */
+.doctors-head {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 90%;
+   margin: auto;
+}
+.doctors-head h4 {
+   font-size: 1.9rem;
+   padding: 2rem;
+}
+#doctors-form {
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   justify-content: space-around;
+}
+#doctors-form .doctors-form-group {
+   flex: 1 1 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.doctors-form-group label {
+   font-size: 1.8rem;
+}
+
+.doctors-form-control {
+   width: 90%;
+   margin: auto;
+   padding: 1rem 2rem;
+}
+.doctors-form-control select {
+   border-radius: 10px;
+   text-align: center;
+   font-size: 1.5rem;
+}
+#doctors-form button {
+   border: 0;
+   padding: 1rem 4rem;
+   margin: 2rem 0 0 0;
+}
+.doctors-body {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.doctors-body h4 {
+   font-size: 1.8rem;
+   margin: 2rem;
+   padding: 2rem;
+}
+.doctors-body .cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-wrap: wrap;
+   margin-bottom: 2rem;
+}
+.doctors-body .cards .card {
+   flex: 1 1 25rem;
+   margin: 1rem;
+   width: 100%;
+   height: 80%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.doctors-body .doctor-image {
+   width: 100%;
+   height: 100%;
+}
+.doctors-body .name {
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+.doctors-body .designation {
+   font-size: 1.2rem;
+}
+.doctors-body .hospital {
+   font-size: 1.5rem;
+}
+.doctors-body a {
+   color: black;
+}
+.doctors-body .card-body {
+   padding: 2rem;
+}
 @media screen and (max-width: 800px) {
    html {
       font-size: 50%;
