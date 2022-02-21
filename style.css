@@ -398,15 +398,16 @@ footer ul li {
 }
 .doctors-body .cards .card {
    flex: 1 1 25rem;
-   margin: 1rem;
+   margin: 1.5rem;
    width: 100%;
-   height: 80%;
+   height: 100%;
    background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .doctors-body .doctor-image {
-   width: 100%;
-   height: 100%;
+   width: 20rem;
+   height: 20rem;
+   /* width: auto; */
 }
 .doctors-body .name {
    font-size: 1.6rem;
@@ -423,6 +424,26 @@ footer ul li {
 }
 .doctors-body .card-body {
    padding: 2rem;
+}
+.pagination {
+   width: 60%;
+   margin: auto;
+   margin-bottom: 2rem;
+}
+.pagination-container {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+.pagination-item {
+   flex: 1;
+   margin: 1rem;
+   padding: 1rem;
+   background: #131c27;
+   color: white;
+   cursor: pointer;
 }
 @media screen and (max-width: 800px) {
    html {
@@ -474,5 +495,38 @@ footer ul li {
    }
    .service-head .nav {
       justify-content: center;
+   }
+   #doctors-form {
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   #doctors-form .doctors-form-group {
+      flex: 1 1 30rem;
+      padding: 1rem;
+      align-items: flex-start;
+   }
+   /* find doctors */
+   .doctors-body h4 {
+      margin: 0;
+   }
+   #doctors-form .doctors-form-group select,
+   #doctors-form .doctors-form-group button {
+      width: 100%;
+   }
+   #doctors-form .doctors-form-group button {
+      margin-top: 0;
+      padding: 1.5rem 0rem;
+   }
+   .doctors-body .name {
+      font-size: 2rem;
+      font-weight: 600;
+   }
+   .doctors-body .designation {
+      font-size: 1.7rem;
+   }
+   .doctors-body .hospital {
+      font-size: 1.8rem;
    }
 }
